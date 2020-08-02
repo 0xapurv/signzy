@@ -32,8 +32,15 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_sms_inbox: ^0.1.1+1
+  permission: ^0.1.1
   sms: ^0.2.4
+  vibration: ^1.0.1
+  clipboard_manager: ^0.0.4
+  pie_chart: ^3.1.1
+  date_range_picker: ^1.0.6
+  intl: ^0.15.7
+  fl_chart: ^0.8.3
+  provider: ^3.2.0
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -46,8 +53,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
