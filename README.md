@@ -1,6 +1,6 @@
 # signzy
 
-Internshiip Task
+Internship Task
 
 ## Screens
 
